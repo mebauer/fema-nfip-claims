@@ -27,7 +27,7 @@ FIMA NFIP Redacted Claims Data Set.
 
 *This dataset represents more than 2,000,000 claims transactions. Due to the file size we recommend using Access, SQL, or another programming/data management tool to visualize and manipulate the data, as Excel will not be able to process files this large without data loss. Please note that there is a lag of 45 to 60 days for current data to be released. This data set is derived from the NFIP system of record, staged in the NFIP reporting platform and redacted to protect policy holder personally identifiable information.*
 
-[Source](https://www.fema.gov/media-library/assets/documents/180374). 
+Souce: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-library/assets/documents/180374). 
 
 
 # Data Wrangling
@@ -60,7 +60,7 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 **Figure 3. Plots of Number and Amount Paid of NFIP Claims by Year of Loss**
 
 
-![Sample Figure](figures/nfip-claims-by-year-count-top10.)
+![Sample Figure](figures/nfip-claims-by-year-count-top10)
 **Figure 4. Top 10 Number of NFIP Claims by Year of Loss**
 
 
