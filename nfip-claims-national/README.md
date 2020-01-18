@@ -60,7 +60,7 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 **Figure 3. Plots of Number and Amount Paid of NFIP Claims by Year of Loss**
 
 
-![Sample Figure](figures/nfip-claims-by-year-count-top10)
+![Sample Figure](figures/nfip-claims-by-year-count-top10.png)
 **Figure 4. Top 10 Number of NFIP Claims by Year of Loss**
 
 
