@@ -50,6 +50,41 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 
 # Results
 
+## Tables
+
+**Table 1: Top 10 Amount Paid on Total NFIP Claims by Year of Loss**
+
+| Flood Year    | Number of Claims | Amount Paid Flood Claims (Billions) | Average Paid Flood Claim
+| ------------- |:-------------:| -----:| -----:|
+| 2005 | 27,7024 | $14.82 | $51,555
+| 2017 | 145,466 |  $9.13 | $62,793
+| 2012 | 175,789 |  $5.92 | $33,663
+| 2016 |  85,463 |  $2.88 | $33,670
+| 2008 |  96,972 |  $2.60 | $26,826
+| 2004 |  76,033 |  $1.58 | $20,752
+| 2011 |  96,461 |  $1.52 | $15,804 
+| 2018 |  42,429 |  $1.11 | $26,271
+| 2001 |  54,492 |  $1.02 | $18,656
+| 1995 |  79,582 |  $0.96 | $12,069
+
+**Table 2: Top 10 Amount Paid on Total NFIP Claims by State**
+
+| State    | Number of Claims | Amount Paid Flood Claims (Billions)
+| ------------- |:-------------:| -----:|
+| LA | 458,785 | $15.29
+| TX | 371,422 | $13.88 
+| FL | 295,451 |  $4.14 
+| NJ | 192,679 |  $3.59
+| NY | 169,501 |  $3.31 
+| MS |  62,715 |  $2.46 
+| NC | 101,247 |  $1.28 
+| PA |  73,523 |  $0.82 
+| AL |  40,599 |  $0.71 
+| SC |  45,728 |  $0.61 
+
+
+## Figures
+
 ![Sample Figure](figures/nfip-claims-by-year-count.png)
 **Figure 1. Number of NFIP Claims by Year of Loss**
 
