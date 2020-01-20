@@ -67,6 +67,8 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 | 2001 |  54,492 |  $1.02 | $18,656
 | 1995 |  79,582 |  $0.96 | $12,069
 
+
+
 **Table 2: Top 10 Amount Paid on Total NFIP Claims by State**
 
 | State    | Number of Claims | Amount Paid Flood Claims (Billions)
