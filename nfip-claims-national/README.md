@@ -11,6 +11,8 @@ This analysis is designed explore FEMA's NFIP claims dataset.
 
 You can find the raw code located in my notebook [nfip-claims-national.ipynb](https://github.com/mebauer/fema-nfip-claims/blob/master/nfip-claims-national/nfip-claims-national.ipynb).
 
+Additionally, you can find and download the data dictionary provided by FEMA as as excel file (.xlsx) located in my data-dictionary folder [data-dictionary](https://github.com/mebauer/fema-nfip-claims/tree/master/nfip-claims-national/data-dictionary).
+
 I am new to the open source community, so feedback is very welcome! Thank you for taking the time to read my notebook.
 
 
