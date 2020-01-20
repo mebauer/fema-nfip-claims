@@ -56,8 +56,12 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 **Figure 2. Amount Paid on Total NFIP Claims by Year of Loss**
 
 
+![Sample Figure](figures/nfip-claims-by-year-average.png)
+**Figure 3. Average Amount Paid on Total NFIP Claims by Year of Loss**
+
+
 ![Sample Figure](figures/nfip-claims-by-year-subplots.png)
-**Figure 3. Plots of Number and Amount Paid of NFIP Claims by Year of Loss**
+**Figure 3. Plots of Number, Total Amount Paid, and Average Amount Paid of NFIP Claims by Year of Loss**
 
 
 ![Sample Figure](figures/nfip-claims-by-year-count-top10.png)
@@ -68,20 +72,24 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 **Figure 5. Top 10 Amount Paid on Total NFIP Claims by Year of Loss**
 
 
+![Sample Figure](figures/nfip-claims-by-year-average-top10.png)
+**Figure 6. Top 10 Average Amount Paid on Total NFIP Claims by Year of Loss**
+
+
 ![Sample Figure](figures/nfip-claims-by-state-count.png)
-**Figure 6. Number of NFIP Claims by State**
+**Figure 7. Number of NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-count-top10.png)
-**Figure 7. Top 10 Number of NFIP Claims by State**
+**Figure 8. Top 10 Number of NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount.png)
-**Figure 8. Amount Paid on Total NFIP Claims by State**
+**Figure 9. Amount Paid on Total NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount-top10.png)
-**Figure 9. Top 10 Amount Paid on Total NFIP Claims by State**
+**Figure 10. Top 10 Amount Paid on Total NFIP Claims by State**
 
 
 # Overall Conclusions
