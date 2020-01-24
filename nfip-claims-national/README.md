@@ -7,7 +7,7 @@
 
 # Introduction  
 
-This analysis is designed explore FEMA's NFIP claims dataset.
+This analysis is designed to explore FEMA's NFIP claims dataset from 1978 to 2018.
 
 You can find the raw code located in my notebook [nfip-claims-national.ipynb](https://github.com/mebauer/fema-nfip-claims/blob/master/nfip-claims-national/nfip-claims-national.ipynb).
 
@@ -29,14 +29,19 @@ FIMA NFIP Redacted Claims Data Set.
 
 *This dataset represents more than 2,000,000 claims transactions. Due to the file size we recommend using Access, SQL, or another programming/data management tool to visualize and manipulate the data, as Excel will not be able to process files this large without data loss. Please note that there is a lag of 45 to 60 days for current data to be released. This data set is derived from the NFIP system of record, staged in the NFIP reporting platform and redacted to protect policy holder personally identifiable information.*
 
-Souce: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-library/assets/documents/180374). 
+Source: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-library/assets/documents/180374). 
+
+
+**Note**: I  define the *Amount Paid Flood Claims* value as the sum of the amount paid on a claim for the *building and contents* only. I have excluded *increased cost of compliance* for this analysis.
 
 
 # Data Wrangling
 
 1. Download the NFIP Redacted Claims Dataset.
 
-2. Group the claims dataframe by **Year of Loss** and **State**. 
+2. Group the claims dataframe by *Year of Loss* and *State*.
+
+3. Map claims by State using the Census Bureau’s StateShapefile.
 
 
 # How to Download the NFIP Redacted Claims Dataset
@@ -166,9 +171,7 @@ Extract the Shapefile from this section. A screenshot is below.
 
 
 
-
-
-
 # Overall Conclusions
 
+tbd...
 
