@@ -138,7 +138,7 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 **Figure 12. Top 10 Average Amount Paid on Total NFIP Claims by State**
 
 
-![Sample Figure](figures/claims-count-map.png.png)
+![Sample Figure](figures/claims-count-map.png)
 **Figure 13. Number of NFIP Claims by State Map**
 
 
