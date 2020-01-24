@@ -68,7 +68,6 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 | 1995 |  79,582 |  $0.96 | $12,069
 
 
-
 **Table 2: Top 10 Amount Paid on Total NFIP Claims by State**
 
 | State    | Number of Claims | Amount Paid Flood Claims (Billions)
@@ -129,6 +128,34 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount-top10.png)
 **Figure 10. Top 10 Amount Paid on Total NFIP Claims by State**
+
+
+![Sample Figure](figures/nfip-claims-by-state-amount-average.png)
+**Figure 11. Average Amount Paid on Total NFIP Claims by State**
+
+
+![Sample Figure](figures/nfip-claims-by-state-amount-average-top10.png)
+**Figure 12. Top 10 Average Amount Paid on Total NFIP Claims by State**
+
+
+![Sample Figure](figures/claims-count-map.png.png)
+**Figure 13. Number of NFIP Claims by State Map**
+
+
+![Sample Figure](figures/claims-paid-amount-map.png)
+**Figure 14. Amount Paid on Total NFIP Claims by State Map**
+
+
+![Sample Figure](figures/claims-paid-amount-average-map.png)
+**Figure 15. Average Amount Paid on Total NFIP Claims by State**
+
+
+![Sample Figure](figures/nfip-claims-by-state-submaps.png)
+**Figure 16. Maps of Number, Total Amount Paid, and Average Amount Paid of NFIP Claims by State**
+
+
+
+
 
 
 # Overall Conclusions
