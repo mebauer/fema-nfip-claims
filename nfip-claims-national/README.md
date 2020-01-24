@@ -36,7 +36,7 @@ Souce: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-library
 
 1. Download the NFIP Redacted Claims Dataset.
 
-2. Group the claims dataframe by **year of loss** and **state**. 
+2. Group the claims dataframe by **Year of Loss** and **State**. 
 
 
 # How to Download the NFIP Redacted Claims Dataset
@@ -46,6 +46,17 @@ Data can be accessed from FEMA's Open Data Portal [here](https://www.fema.gov/me
 Extract the NFIP Redacted Claims Dataset from this webpage. We need to download it directly as a zipfile, and then unzip the file once it is in our Dowloads folder. A screenshot of the claims dataset is below.
 
 ![FEMA Open Data Screenshot](images/fema-opendata-011820.png)
+
+
+# How to Download State Boundary Files - Shapefile
+
+Data can be accessed from the Census Bureau’s MAF/TIGER geographic database [here](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html).
+
+![Census Bureau Website Screenshot](images/census-website-screenshot.png)
+
+Extract the Shapefile from this section. A screenshot is below.
+
+![State Shapefile Screenshot](images/state-shapefile-screenshot.png)
 
 
 # Results
@@ -70,18 +81,18 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 
 **Table 2: Top 10 Amount Paid on Total NFIP Claims by State**
 
-| State    | Number of Claims | Amount Paid Flood Claims (Billions)
+| State    | Number of Claims | Amount Paid Flood Claims (Billions) | Average Paid Flood Claim
 | ------------- |:-------------:| -----:|
-| LA | 458,785 | $15.29
-| TX | 371,422 | $13.88 
-| FL | 295,451 |  $4.14 
-| NJ | 192,679 |  $3.59
-| NY | 169,501 |  $3.31 
-| MS |  62,715 |  $2.46 
-| NC | 101,247 |  $1.28 
-| PA |  73,523 |  $0.82 
-| AL |  40,599 |  $0.71 
-| SC |  45,728 |  $0.61 
+| LA | 458,785 | $15.29 | $33,327
+| TX | 371,422 | $13.88 | $37,381
+| FL | 295,451 |  $4.14 | $14,004
+| NJ | 192,679 |  $3.59 | $18,653
+| NY | 169,501 |  $3.31 | $19,550
+| MS |  62,715 |  $2.46 | $39,240
+| NC | 101,247 |  $1.28 | $12,622
+| PA |  73,523 |  $0.82 | $11,120
+| AL |  40,599 |  $0.71 | $17,511
+| SC |  45,728 |  $0.61 | $13,444
 
 
 ## Figures
@@ -99,59 +110,59 @@ Extract the NFIP Redacted Claims Dataset from this webpage. We need to download 
 
 
 ![Sample Figure](figures/nfip-claims-by-year-subplots.png)
-**Figure 3. Plots of Number, Total Amount Paid, and Average Amount Paid of NFIP Claims by Year of Loss**
+**Figure 4. Plots of Number, Total Amount Paid, and Average Amount Paid of NFIP Claims by Year of Loss**
 
 
 ![Sample Figure](figures/nfip-claims-by-year-count-top10.png)
-**Figure 4. Top 10 Number of NFIP Claims by Year of Loss**
+**Figure 5. Top 10 Number of NFIP Claims by Year of Loss**
 
 
 ![Sample Figure](figures/nfip-claims-by-year-amount-top10.png)
-**Figure 5. Top 10 Amount Paid on Total NFIP Claims by Year of Loss**
+**Figure 6. Top 10 Amount Paid on Total NFIP Claims by Year of Loss**
 
 
 ![Sample Figure](figures/nfip-claims-by-year-average-top10.png)
-**Figure 6. Top 10 Average Amount Paid on Total NFIP Claims by Year of Loss**
+**Figure 7. Top 10 Average Amount Paid on Total NFIP Claims by Year of Loss**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-count.png)
-**Figure 7. Number of NFIP Claims by State**
+**Figure 8. Number of NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-count-top10.png)
-**Figure 8. Top 10 Number of NFIP Claims by State**
+**Figure 9. Top 10 Number of NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount.png)
-**Figure 9. Amount Paid on Total NFIP Claims by State**
+**Figure 10. Amount Paid on Total NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount-top10.png)
-**Figure 10. Top 10 Amount Paid on Total NFIP Claims by State**
+**Figure 11. Top 10 Amount Paid on Total NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount-average.png)
-**Figure 11. Average Amount Paid on Total NFIP Claims by State**
+**Figure 12. Average Amount Paid on Total NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-amount-average-top10.png)
-**Figure 12. Top 10 Average Amount Paid on Total NFIP Claims by State**
+**Figure 13. Top 10 Average Amount Paid on Total NFIP Claims by State**
 
 
 ![Sample Figure](figures/claims-count-map.png)
-**Figure 13. Number of NFIP Claims by State Map**
+**Figure 14. Number of NFIP Claims by State Map**
 
 
 ![Sample Figure](figures/claims-paid-amount-map.png)
-**Figure 14. Amount Paid on Total NFIP Claims by State Map**
+**Figure 15. Amount Paid on Total NFIP Claims by State Map**
 
 
 ![Sample Figure](figures/claims-paid-amount-average-map.png)
-**Figure 15. Average Amount Paid on Total NFIP Claims by State**
+**Figure 16. Average Amount Paid on Total NFIP Claims by State**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-maps.png)
-**Figure 16. Maps of Number, Total Amount Paid, and Average Amount Paid of NFIP Claims by State**
+**Figure 17. Maps of Number, Total Amount Paid, and Average Amount Paid of NFIP Claims by State**
 
 
 
