@@ -1,1 +1,1 @@
-# Output Figures
+**Output Figures**
