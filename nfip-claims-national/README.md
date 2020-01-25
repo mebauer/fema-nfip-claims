@@ -41,14 +41,14 @@ Source: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-librar
 
 2. Group the claims dataframe by *Year of Loss* and *State*.
 
-3. Map claims by State using the Census Bureau’s StateShapefile.
+3. Map claims by State using the Census Bureau’s State Shapefile.
 
 
 # How to Download the NFIP Redacted Claims Dataset
 
 Data can be accessed from FEMA's Open Data Portal [here](https://www.fema.gov/media-library/assets/documents/180374).
 
-Extract the NFIP Redacted Claims Dataset from this webpage. We need to download it directly as a zipfile, and then unzip the file once it is in our Dowloads folder. A screenshot of the claims dataset is below.
+Extract the NFIP Redacted Claims Dataset from this webpage. You need to download it directly as a zipfile, and then unzip the file once it is in your Dowloads folder. A screenshot of the claims dataset is below.
 
 ![FEMA Open Data Screenshot](images/fema-opendata-011820.png)
 
@@ -68,7 +68,7 @@ Extract the Shapefile from this section. A screenshot is below.
 
 ## Tables
 
-**Table 1: Top 10 Amount Paid on Total NFIP Claims by Year of Loss**
+**Table 1: Top 10 Amounts Paid on Total NFIP Claims by Year of Loss**
 
 | Flood Year    | Number of Claims | Amount Paid Flood Claims (Billions) | Average Paid Flood Claim
 | ---- |--------:| ------:| -------:|
@@ -84,7 +84,7 @@ Extract the Shapefile from this section. A screenshot is below.
 | 1995 |  79,582 |  $0.96 | $12,069 |
 
 
-**Table 2: Top 10 Amount Paid on Total NFIP Claims by State**
+**Table 2: Top 10 Amounts Paid on Total NFIP Claims by State**
 
 | State    | Number of Claims | Amount Paid Flood Claims (Billions) | Average Paid Flood Claim
 | ---| -------:| ------:| -------:|
@@ -163,7 +163,7 @@ Extract the Shapefile from this section. A screenshot is below.
 
 
 ![Sample Figure](figures/claims-paid-amount-average-map.png)
-**Figure 16. Average Amount Paid on Total NFIP Claims by State**
+**Figure 16. Average Amount Paid on Total NFIP Claims by State Map**
 
 
 ![Sample Figure](figures/nfip-claims-by-state-maps.png)
