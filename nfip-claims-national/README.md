@@ -32,7 +32,7 @@ FIMA NFIP Redacted Claims Data Set.
 Source: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-library/assets/documents/180374). 
 
 
-**Note**: I  define the *Amount Paid Flood Claims* value as the sum of the amount paid on a claim for the *building and contents* only. I have excluded *increased cost of compliance* for this analysis. Additionally, all dollars in this analysis are *nominal dollars* and are not adjusted for inflation.
+**Note**: I  define the *Amount Paid Total Claims* value as the sum of the amount paid on a claim for the *building and contents* only. I have excluded *increased cost of compliance* for this analysis. Additionally, all dollars in this analysis are *nominal dollars* and are not adjusted for inflation.
 
 
 # Data Wrangling
