@@ -27,12 +27,12 @@ FIMA NFIP Redacted Claims Data Set.
 
 *Federal Insurance & Mitigation Administration National Flood Insurance Program (FIMA NFIP) Redacted Claims Dataset*
 
-*This dataset represents more than 2,000,000 claims transactions. Due to the file size we recommend using Access, SQL, or another programming/data management tool to visualize and manipulate the data, as Excel will not be able to process files this large without data loss. Please note that there is a lag of 45 to 60 days for current data to be released. This data set is derived from the NFIP system of record, staged in the NFIP reporting platform and redacted to protect policy holder personally identifiable information.*
+*This dataset represents more than 2,000,000 claims transactions. Please note that there is a lag of 45 to 60 days for current data to be released. This data set is derived from the NFIP system of record, staged in the NFIP reporting platform and redacted to protect policy holder personally identifiable information.*
 
 Source: [*FIMA NFIP Redacted Claims Data Set*](https://www.fema.gov/media-library/assets/documents/180374). 
 
 
-**Note**: I  define the *Amount Paid Flood Claims* value as the sum of the amount paid on a claim for the *building and contents* only. I have excluded *increased cost of compliance* for this analysis.
+**Note**: I  define the *Amount Paid Flood Claims* value as the sum of the amount paid on a claim for the *building and contents* only. I have excluded *increased cost of compliance* for this analysis. Additionally, all dollars in this analysis are *nominal dollars* and are not adjusted for inflation.
 
 
 # Data Wrangling
@@ -70,8 +70,8 @@ Extract the Shapefile from this section. A screenshot is below.
 
 **Table 1: Top 10 Amounts Paid on Total NFIP Claims by Year of Loss**
 
-| Flood Year    | Number of Claims | Amount Paid on Total Claims (Billions) | Average Amount Paid on Total Claims
-| ---- |--------:| ------:| -------:|
+| Flood Year | Number of Claims | Amount Paid on Total Claims (Billions) | Average Amount Paid on Total Claims
+|:---- |--------:| ------:| -------:|
 | 2005 | 27,7024 | $14.82 | $51,555 |
 | 2017 | 145,466 |  $9.13 | $62,793 |
 | 2012 | 175,789 |  $5.92 | $33,663 |
@@ -86,8 +86,8 @@ Extract the Shapefile from this section. A screenshot is below.
 
 **Table 2: Top 10 Amounts Paid on Total NFIP Claims by State**
 
-| State    | Number of Claims | Amount Paid on Total Claims (Billions) | Average Amount Paid on Total Claims
-| ---| -------:| ------:| -------:|
+| State | Number of Claims | Amount Paid on Total Claims (Billions) | Average Amount Paid on Total Claims
+|:---| -------:| ------:| -------:|
 | LA | 458,785 | $15.29 | $33,327 |
 | TX | 371,422 | $13.88 | $37,381 |
 | FL | 295,451 |  $4.14 | $14,004 |
