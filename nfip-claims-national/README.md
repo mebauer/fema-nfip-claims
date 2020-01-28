@@ -173,5 +173,11 @@ Extract the Shapefile from this section. A screenshot is below.
 
 # Overall Conclusions
 
-tbd...
+
+This analysis is largely exploratory, but it did reveal that the number of NFIP claims, as well as the total amount paid on claims, are increasing over time (see figures 1 and 2). The average total amount paid on claims also seem to be increasing over time (see figure 3). This analysis is in nominal dollars, and perhaps it would be more accurate to convert all dollars to real values (i.e. adjusting for inflation). However, this wouldn't have a significant impact on these trends.
+
+Hurricane Katrina (2005), Hurricane Harvey/Irma/Maria (2017), and Hurricane Sandy (2012) all seem to dominate the NFIP claims losses (see table 1 and figures 1 and 2). Moreover, Louisiana ($15.29B) and Texas (13.88B) are the most costly by state (see table 2 and figure 10). Interestingly, Mississippi has the highest average claim amount, with just under $40,000 per NFIP claim.
+
+Lastly, three of the top five most costly years are between 2012 and 2017, and five out of the top ten were between 2011 and 2018. This is not a desirable trend for the NFIP. However, as this analysis is largely exploratory, more research is required to infer any significant conclusions.
+
 
